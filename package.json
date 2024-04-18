@@ -1,0 +1,20 @@
+{
+  "name": "sayy-helloo-function-packagee",
+  "version": "1.0.0",
+  "description": "function to say hello",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsup src/index.ts"
+  },
+  "keywords": [
+    "hello"
+  ],
+  "author": "Njoku",
+  "license": "MIT",
+  "devDependencies": {
+    "tsup": "^8.0.2",
+    "typescript": "^5.4.5"
+  }
+}
